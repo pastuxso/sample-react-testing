@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> render match snapshot 1`] = `
+<button
+  onClick={[Function]}
+  type="button"
+/>
+`;
+
+exports[`<Button /> render match snapshot with onClick prop 1`] = `
+<button
+  onClick={[Function]}
+  type="button"
+>
+  text
+</button>
+`;
+
+exports[`<Button /> render match snapshot with text prop 1`] = `
+<button
+  onClick={[Function]}
+  type="button"
+>
+  Button text
+</button>
+`;

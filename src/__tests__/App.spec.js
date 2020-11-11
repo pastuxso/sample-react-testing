@@ -1,14 +1,15 @@
 import React from 'react';
 import { render } from '@testing-library/react';
+import renderer from 'react-test-renderer';
 import App from '../components/App';
 
 describe('<App />', () => {
   describe('render', () => {
 
   it('match snapshot', () => {
-      const {container} = render(<App />);
-      expect(container.firstChild).toMatchSnapshot();
-    });
+    const tree = renderer.create(<App />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 
   it('render a link', () => {
       const { getByText } = render(<App />);

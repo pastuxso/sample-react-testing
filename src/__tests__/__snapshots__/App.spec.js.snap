@@ -2,14 +2,14 @@
 
 exports[`<App /> render match snapshot 1`] = `
 <div
-  class="App"
+  className="App"
 >
   <header
-    class="App-header"
+    className="App-header"
   >
     <img
       alt="logo"
-      class="App-logo"
+      className="App-logo"
       src="logo.svg"
     />
     <p>
@@ -20,7 +20,7 @@ exports[`<App /> render match snapshot 1`] = `
        and save to reload.
     </p>
     <a
-      class="App-link"
+      className="App-link"
       href="https://reactjs.org"
       rel="noopener noreferrer"
       target="_blank"
